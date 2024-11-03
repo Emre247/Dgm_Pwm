@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 from time import sleep
-GPIO.cleanup()
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(38,GPIO.OUT)
 # PWM frekansını 60 Hz olarak ayarlıyoruz
