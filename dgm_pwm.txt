@@ -1,0 +1,1 @@
+dgm= darbe genişlik modülasyonu demektir. İngilizce "PWM" (Pulse Width Modulation)
