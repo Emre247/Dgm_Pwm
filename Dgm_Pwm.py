@@ -10,7 +10,7 @@ try:
 #ki tüm değerleri ayırt edemiyor ya da çok yakın hissediyor.
         benimDGM=GPIO.PWM(cikisPin,60)
         benimDGM.start(30)
-        benimDGM.stop(30)
+        benimDGM.stop()
 except KeyboardInterrupt:
     print  ("Herşey yolunda")
     GPIO.cleanup() 
