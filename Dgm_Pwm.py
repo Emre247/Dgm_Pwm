@@ -11,6 +11,6 @@ try:
 except KeyboardInterrupt:
     pass  # Çıkmak için Ctrl+C tuşlayabilirsiniz
     print("Herşey yolunda..")
-finally:
     benimDGM.stop()
+finally:
     GPIO.cleanup()
